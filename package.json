@@ -1,7 +1,7 @@
 {
   "name": "@ckapp/rxjs-electron",
   "description": "A collection of RxJS extensions for electron",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "author": "Chris",
   "main": "./lib/cjs/index.js",
