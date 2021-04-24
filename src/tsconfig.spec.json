@@ -3,7 +3,8 @@
   "compilerOptions": {
     "module": "esnext",
     "importHelpers": true,
-    "target": "es5"
+    "target": "es5",
+    "types": ["jest"]
   },
   "exclude": []
 }
