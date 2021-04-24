@@ -1,5 +1,5 @@
 {
-  "extends": "./tsconfig.esm.json",
+  "extends": "./tsconfig.cjs.json",
   "compilerOptions": {
     "composite": true,
     "module": "es2015",
