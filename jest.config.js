@@ -12,7 +12,7 @@ module.exports = {
   ],
   globals: {
     'ts-jest': {
-      tsconfig: './src/tsconfig.spec.json',
+      tsconfig: './tsconfig.spec.json',
     },
   },
 };

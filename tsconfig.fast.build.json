@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.build.json",
+  "compilerOptions": {
+    "declaration": false,
+    "declarationMap": false /* Generates a sourcemap for each corresponding '.d.ts' file. */,
+    "incremental": true /* Enable incremental compilation */,
+    "sourceMap": false /* Generates corresponding '.map' file. */
+  }
+}
