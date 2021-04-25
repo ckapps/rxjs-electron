@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/ckapps/rxjs-electron/compare/v0.0.2...v0.0.3) (2021-04-25)
+
+
+### Features
+
+* add app events ([ab84560](https://github.com/ckapps/rxjs-electron/commit/ab84560ec959bb799981fc13be0b3b2d34b22b06))
+
 ### [0.0.2](https://github.com/ckapps/rxjs-electron/compare/v0.0.1...v0.0.2) (2021-04-24)
 
 ### 0.0.1 (2021-04-24)
