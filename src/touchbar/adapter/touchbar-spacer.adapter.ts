@@ -1,4 +1,4 @@
-import { TouchBarSpacer } from 'electron';
+import { TouchBar, TouchBarSpacer } from 'electron';
 import { Adapter } from './adapter';
 
 export { TouchBarSpacer };
@@ -16,7 +16,7 @@ export class TouchbarSpacerAdapter
   adapt(options: RxTouchbarSpacerOptions): TouchBarSpacer {
     const { size } = options;
 
-    return new TouchBarSpacer({
+    return new TouchBar.TouchBarSpacer({
       size,
     });
   }

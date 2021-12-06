@@ -1,4 +1,4 @@
-import { TouchBarButton } from 'electron';
+import { TouchBar, TouchBarButton } from 'electron';
 import { Adapter } from './adapter';
 
 export { TouchBarButton };
@@ -23,7 +23,7 @@ export class TouchbarButtonAdapter
       label,
     } = options;
 
-    return new TouchBarButton({
+    return new TouchBar.TouchBarButton({
       accessibilityLabel,
       backgroundColor,
       enabled,
