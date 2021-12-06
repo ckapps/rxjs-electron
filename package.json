@@ -17,7 +17,8 @@
     "release": "standard-version",
     "release:pre": "npm run release -- --prerelease",
     "test": "jest",
-    "test:coverage": "npm test -- --coverage"
+    "test:coverage": "npm test -- --coverage",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@ckapp/math": "^0.0.14",
@@ -38,7 +39,7 @@
     "eslint": "^8.4.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "husky": "^4.3.0",
+    "husky": "^7.0.4",
     "jest": "^27.4.3",
     "lint-staged": "^12.1.2",
     "npm-run-all": "^4.1.5",
