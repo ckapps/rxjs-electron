@@ -23,8 +23,7 @@ jobs:
       - uses: actions/setup-node@v2.5.0
         with:
           node-version: '16'
-      - name: install
-        run: npm ci
+      - run: npm ci
       - name: Run standard-version
         run: |
           git config --global user.name "Bump version - ${{ github.repository }} (by ${{ github.actor }})"

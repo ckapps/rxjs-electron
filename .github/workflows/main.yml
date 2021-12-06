@@ -18,8 +18,7 @@ jobs:
       - uses: actions/setup-node@v2.5.0
         with:
           node-version: ${{ matrix.node }}
-      - name: install
-        run: npm ci
+      - run: npm ci
       - name: lint
         run: npm run lint
       - name: build

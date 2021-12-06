@@ -12,8 +12,7 @@ jobs:
       - uses: actions/setup-node@v2.5.0
         with:
           node-version: '16'
-      - name: npm install
-        run: npm ci
+      - run: npm ci
       - name: coverage report
         run: npm run test:coverage
       - name: Coveralls
