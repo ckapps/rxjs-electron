@@ -2,3 +2,7 @@
 lib
 coverage
 
+# Other files
+CHANGELOG.md
+tsconfig.json
+
