@@ -1,9 +1,7 @@
 {
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
-    "module": "esnext",
     "importHelpers": true,
-    "target": "es5",
     "types": ["jest"]
   },
   "exclude": []
