@@ -1,4 +1,4 @@
-import { TouchBarButton } from 'electron';
+import { TouchBar, TouchBarButton } from 'electron';
 import { Adapter } from './adapter';
 
 export { TouchBarButton };
@@ -12,7 +12,8 @@ export interface RxTouchbarButtonOptions {
 }
 
 export class TouchbarButtonAdapter
-  implements Adapter<TouchBarButton, RxTouchbarButtonOptions> {
+  implements Adapter<TouchBarButton, RxTouchbarButtonOptions>
+{
   adapt(options: RxTouchbarButtonOptions): TouchBarButton {
     const {
       accessibilityLabel,
@@ -22,7 +23,7 @@ export class TouchbarButtonAdapter
       label,
     } = options;
 
-    return new TouchBarButton({
+    return new TouchBar.TouchBarButton({
       accessibilityLabel,
       backgroundColor,
       enabled,

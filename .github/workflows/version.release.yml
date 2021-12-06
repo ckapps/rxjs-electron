@@ -14,16 +14,16 @@ jobs:
     if: "!contains(github.event.head_commit.author.name, 'Bump version')"
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
         with:
           # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
           persist-credentials: false
           # otherwise, you will failed to push refs to dest repo
           fetch-depth: 0
-      - uses: actions/setup-node@v1
-      - name: install
-        run: npm ci
+      - uses: actions/setup-node@v2.5.0
+        with:
+          node-version: '16'
+      - run: npm ci
       - name: Run standard-version
         run: |
           git config --global user.name "Bump version - ${{ github.repository }} (by ${{ github.actor }})"
