@@ -11,7 +11,8 @@ export interface RxTouchbarSpacerOptions {
 }
 
 export class TouchbarSpacerAdapter
-  implements Adapter<TouchBarSpacer, RxTouchbarSpacerOptions> {
+  implements Adapter<TouchBarSpacer, RxTouchbarSpacerOptions>
+{
   adapt(options: RxTouchbarSpacerOptions): TouchBarSpacer {
     const { size } = options;
 

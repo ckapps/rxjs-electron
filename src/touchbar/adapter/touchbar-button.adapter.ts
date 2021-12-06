@@ -12,7 +12,8 @@ export interface RxTouchbarButtonOptions {
 }
 
 export class TouchbarButtonAdapter
-  implements Adapter<TouchBarButton, RxTouchbarButtonOptions> {
+  implements Adapter<TouchBarButton, RxTouchbarButtonOptions>
+{
   adapt(options: RxTouchbarButtonOptions): TouchBarButton {
     const {
       accessibilityLabel,
