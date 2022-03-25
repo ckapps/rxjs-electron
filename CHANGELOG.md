@@ -1,5 +1,12 @@
 # Changelog
 
+# [0.1.0](https://github.com/ckapps/rxjs-electron/compare/v0.0.8...v0.1.0) (2022-03-25)
+
+
+### Features
+
+* set up semantic-release ([4460dc0](https://github.com/ckapps/rxjs-electron/commit/4460dc0c61e5e74e15a7b528e9d3b70e1eac0541)), closes [#22](https://github.com/ckapps/rxjs-electron/issues/22)
+
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 ### [0.0.8](https://github.com/ckapps/rxjs-electron/compare/v0.0.7...v0.0.8) (2022-01-03)
