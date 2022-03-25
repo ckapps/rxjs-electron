@@ -14,7 +14,7 @@ jobs:
     if: "!contains(github.event.head_commit.author.name, 'Bump version')"
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
           persist-credentials: false
