@@ -23,7 +23,7 @@
     "semantic-release": "semantic-release"
   },
   "dependencies": {
-    "@ckapp/math": "^0.0.47",
+    "@ckapp/math": "^0.0.48",
     "@ckapp/rxjs-snafu": "0.1.0"
   },
   "peerDependencies": {
