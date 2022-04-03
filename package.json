@@ -1,7 +1,7 @@
 {
   "name": "@ckapp/rxjs-electron",
   "description": "A collection of RxJS extensions for electron",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "author": "Chris",
   "main": "./lib/index.js",
@@ -23,8 +23,8 @@
     "semantic-release": "semantic-release"
   },
   "dependencies": {
-    "@ckapp/math": "^0.0.47",
-    "@ckapp/rxjs-snafu": "0.1.0"
+    "@ckapp/math": "^0.0.48",
+    "@ckapp/rxjs-snafu": "0.1.1"
   },
   "peerDependencies": {
     "electron": "~16.0.0",
@@ -47,7 +47,7 @@
     "jest": "^27.5.1",
     "lint-staged": "^12.3.7",
     "npm-run-all": "^4.1.5",
-    "prettier": "^2.6.1",
+    "prettier": "^2.6.2",
     "rxjs": "~6.6.7",
     "semantic-release": "^19.0.2",
     "shx": "^0.3.4",

@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.2](https://github.com/ckapps/rxjs-electron/compare/v0.1.1...v0.1.2) (2022-04-03)
+
+
+### Bug Fixes
+
+* **deps:** bump @ckapp/math from 0.0.47 to 0.0.48 ([a03384d](https://github.com/ckapps/rxjs-electron/commit/a03384d89eb8d8a2f72a1a1aab58a6220c0e0b26))
+* **deps:** bump @ckapp/rxjs-snafu from 0.1.0 to 0.1.1 ([6fe79a4](https://github.com/ckapps/rxjs-electron/commit/6fe79a4e37f4412473fb6546fbeb42846c5a8f9d))
+
 ## [0.1.1](https://github.com/ckapps/rxjs-electron/compare/v0.1.0...v0.1.1) (2022-03-25)
 
 
