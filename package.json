@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@ckapp/math": "^0.0.48",
-    "@ckapp/rxjs-snafu": "0.1.1"
+    "@ckapp/rxjs-snafu": "0.1.2"
   },
   "peerDependencies": {
     "electron": "~16.0.0",
