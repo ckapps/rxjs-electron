@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/ckapps/rxjs-electron/compare/v0.1.2...v0.1.3) (2023-03-24)
+
+
+### Bug Fixes
+
+* **deps:** bump rxjs related dependencies ([56ac61d](https://github.com/ckapps/rxjs-electron/commit/56ac61de389b6d447481f03c6a61fb853b4edefb))
+
 ## [0.1.2](https://github.com/ckapps/rxjs-electron/compare/v0.1.1...v0.1.2) (2022-04-03)
 
 
