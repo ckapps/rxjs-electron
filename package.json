@@ -28,7 +28,7 @@
     "tslib": "^2.5.0"
   },
   "peerDependencies": {
-    "electron": "~16.0.0",
+    "electron": "^23.0.0",
     "rxjs": "^7.5.0"
   },
   "devDependencies": {
@@ -40,7 +40,7 @@
     "@types/jest": "^29.5.0",
     "@typescript-eslint/eslint-plugin": "^5.56.0",
     "@typescript-eslint/parser": "^5.56.0",
-    "electron": "~16.0.0",
+    "electron": "~23.2.0",
     "eslint": "^8.36.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
