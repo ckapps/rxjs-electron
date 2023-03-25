@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.4](https://github.com/ckapps/rxjs-electron/compare/v0.1.3...v0.1.4) (2023-03-25)
+
+
+### Bug Fixes
+
+* **deps:** bump electron to `^23.0.0` ([ba72da1](https://github.com/ckapps/rxjs-electron/commit/ba72da144fcf9e0437d7dbfe43ab1b1524ccd533))
+
 ## [0.1.3](https://github.com/ckapps/rxjs-electron/compare/v0.1.2...v0.1.3) (2023-03-24)
 
 
