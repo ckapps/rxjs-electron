@@ -23,7 +23,7 @@
     "semantic-release": "semantic-release"
   },
   "dependencies": {
-    "@ckapp/math": "^0.0.57",
+    "@ckapp/math": "^0.0.58",
     "@ckapp/rxjs-snafu": "0.1.9",
     "tslib": "^2.5.0"
   },
