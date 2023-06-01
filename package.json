@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@ckapp/math": "^0.0.57",
-    "@ckapp/rxjs-snafu": "0.1.9",
+    "@ckapp/rxjs-snafu": "0.1.11",
     "tslib": "^2.5.0"
   },
   "peerDependencies": {
